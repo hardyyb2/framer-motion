@@ -152,3 +152,18 @@ li span.active::before {
   font-weight: bold;
   border-color: black;
 }
+
+.loader {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: auto;
+}
+
+.changeLoader {
+  cursor: pointer;
+  margin-top: 50px;
+  display: block;
+  margin-left: 40px;
+}

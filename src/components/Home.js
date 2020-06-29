@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { buttonStyle, HomeContainer } from './style'
+import Loader from './Loader'
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
           Create Your Pizza
         </motion.button>
       </Link>
+      <Loader />
     </motion.div>
   )
 }

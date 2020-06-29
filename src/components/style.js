@@ -120,3 +120,60 @@ export const modalVariants = {
     },
   },
 }
+
+export const HeaderSvg = {
+  hidden: {
+    rotate: -180,
+    opacity: 0,
+  },
+  visible: {
+    rotate: 0,
+    opacity: 1,
+    transition: {
+      ease: 'easeInOut',
+      duration: 1,
+    },
+  },
+}
+
+export const HeaderSvgPath = {
+  hidden: {
+    pathLength: 0,
+  },
+  visible: {
+    pathLength: 1,
+    transition: {
+      ease: 'easeInOut',
+      duration: 1,
+    },
+  },
+}
+
+export const LoaderVariants = {
+  visible: {
+    x: [0, 20],
+    y: [20, 0],
+    transition: {
+      x: {
+        duration: 0.5,
+        yoyo: Infinity,
+      },
+      y: {
+        duration: 0.25,
+        yoyo: Infinity,
+        ease: 'easeOut',
+      },
+    },
+  },
+  visibleTwo: {
+    x: 0,
+    y: [40, 0],
+    transition: {
+      y: {
+        duration: 0.5,
+        yoyo: Infinity,
+        ease: 'easeOut',
+      },
+    },
+  },
+}

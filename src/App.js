@@ -30,7 +30,6 @@ function App() {
   return (
     <>
       <Header />
-
       <AnimatePresence
         exitBeforeEnter
         onExitComplete={() => setShowModal(false)}
